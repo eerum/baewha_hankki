@@ -1,0 +1,54 @@
+*{
+    font-family: 'LeeSeoyun';
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #686868;
+}
+
+.intro_bg {
+    background-image: url(/image/suggest/suggest.png);
+    width: 1920px; height: 1530px;
+}
+
+.main_button {
+    line-height: 200px;
+    width: 600px; height: 90px;
+    margin-top: 54px; margin-left: 679px; margin-right: 677px;
+}
+
+.main_button > a {
+    font-size: 90px;
+    margin-left: 120px; margin-right: 118px; margin-top: 54px;
+}
+
+.header {
+    display: flex;
+    width: 1861px; height: 250px;
+    margin: auto;
+    height: 250px;
+}
+
+.ui_text_menu {
+    display: flex;
+    justify-content: flex-start;
+    width: 1545px; height: 69px;
+    margin-left: auto; margin-right: auto; margin-top: -120px;
+    line-height: 158px;
+    font-size: 61px;
+}
+
+.ui_text_menu > a {
+    margin-left: auto; margin-right: auto; margin-top: 175px;
+}
+
+.ui_text_menu > a > button:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(246, 192, 57, 0.7);
+}
+
+.ui_text_menu > a > button:focus {
+    outline: 0px;
+}
